@@ -69,24 +69,34 @@
 	padding: 90px;
 }
 
+.footer-side {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 #contact {
 	background: #efefef;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	color: #777;
+	display: grid;
+	margin-bottom: 25px;
 }
+
 .contact-form {
 	padding: 15px;
 }
+
 .form-control {
 	border-radius: 0 !important;
 	border: none !important;
 }
+
 ::placeholder {
 	color: #999 !important;
 }
 
 #footer {
-	color: #fff;
+	color: #777;
 	padding: 12px;
 }
