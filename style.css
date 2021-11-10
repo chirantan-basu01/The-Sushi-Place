@@ -68,3 +68,25 @@
 	margin-bottom: 25px;
 	padding: 90px;
 }
+
+#contact {
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form {
+	padding: 15px;
+}
+.form-control {
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder {
+	color: #999 !important;
+}
+
+#footer {
+	color: #fff;
+	padding: 12px;
+}
