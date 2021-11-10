@@ -4,12 +4,16 @@
 }
 
 .topnav {
-	background-color: #333;
+	background-color: #110d08;
 	overflow: hidden;
 }
 
-.topnav a {
+.img-responsive {
 	float: left;
+}
+
+.topnav a {
+	float: right;
 	color: #f2f2f2;
 	text-align: center;
 	padding: 14px 16px;
