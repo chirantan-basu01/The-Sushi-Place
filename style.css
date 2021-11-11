@@ -6,6 +6,9 @@
 .topnav {
 	background-color: #110d08;
 	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 .img-responsive {
